@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset= "utf-8">
+    <title>Pest911</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">    
+</head>
+<body>
+<div class="wrapper">
+	<main class="main">
+		<header class="header">
+			<div class="header__left">
+				<a class="logo" href="#">
+				
+				</a>
+			</div>
+			<div class="header__right">
+				<div class="header__text">
+					<a href="#page-login" class="header__link">Войти</a> или <a href="#page-signin" class="header__link">зарегистрироваться</a> 
+				</div>
+				<div class="order">
+					<a href="#page-order" class="order__basket">
+						<img src="src/assets/img/basket.png" class="order__basket-image">
+						<span  class="order__basket-text">
+							Корзина
+						</span>
+					</a>
+					<span class="order__sum"><strong>1 400</strong> руб.</span>
+					<div class="order__text">Доставка: с 09:00 до 19:00 (МСК)</div>
+				</div>
+			</div>
+			<div class="header__center">
+				<div class="contacts">
+					<div class="contacts__phones">
+						<div class="contacts__tel">
+							<small class="contacts__text">Москва: </small><a href="tel:+74995055003" class="contacts__phone-number">+7 (499) <strong>505-50-03</strong></a>
+						</div>			
+						<div class="contacts__tel">
+							<small class="contacts__text">Регионы РФ: </small><a href="tel:88003335911" class="contacts__phone-number"><strong>8 800 3335 911</strong></a>
+						</div>				
+					</div>
+					<div class="contacts__links">
+						<p class="header__text">
+							<a href="#modal1" class="header__link">Заказать звонок</a>
+							или <a href="#modal2" class="header__link">написать нам</a>
+						</p>
+					</div>
+									
+				</div>
+				<div class="search">
+					<form action="" class="search__form">
+						<input type="text" class="search__input" placeholder="Поиск среди 35 000 товаров">
+						<button class="search__button"></button>
+					</form>
+				</div>
+			</div>		
+		</header>
+		
+		<section class="section">
+			<ul class="menu">
+				<li class="menu__item">
+					<a href="#" class="menu__link">По вредителям</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">По виду продукции</a></li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">По брендам</a></li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Аксессуары</a></li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Акции</a></li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">База знаний</a></li>
+			</ul>
+		
+			<div class="big-slider">
+				<ul class="bxslider" id="big-carousel">
+					<li><img src="./src/assets/img/bug.png" alt=""></li>
+					<li><img src="./src/assets/img/bug.png" alt=""></li>		
+					<li><img src="./src/assets/img/bug.png" alt=""></li>				
+				</ul>
+			</div>	
+			
+			<ul class="sidebar">
+				<li class="sidebar__item">
+					<div class="sidebar__img-wrap">
+						<img src="./src/assets/img/cube.png" alt="" class="sidebar__img">
+					</div>
+					<div class="sidebar__descr">
+						<h3 class="sidebar__heading"><a href="#" class="sidebar__link">Оптовикам</a></h3>			
+						<p class="sidebar__text">Приглашаем к сотрудничеству организации и физических лиц для работы в качестве наших дилеров или торговых представителей.</p>
+					</div>
+				</li>
+				<li class="sidebar__item">
+					<div class="sidebar__img-wrap">
+						<img src="./src/assets/img/question.png" alt="" class="sidebar__img">
+					</div>
+					<div class="sidebar__descr">
+					<h3 class="sidebar__heading"><a href="#" class="sidebar__link">Задать вопрос</a></h3>			
+					<p class="sidebar__text">Если у вас возникли вопросы,  то наши эксперты «PEST 911» обязательно ответят на них!</p>
+					</div>
+				</li>
+				<li class="sidebar__item">
+					<div class="sidebar__img-wrap">
+						<img src="./src/assets/img/play.png" alt="" class="sidebar__img">
+					</div>
+					<div class="sidebar__descr">
+					<h3 class="sidebar__heading"><a href="#" class="sidebar__link">Видео</a></h3>			
+					<p class="sidebar__text">Полезные советы по борьбе  с вредителями в саду, дома  и на производстве.</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+		
+		<section class="section">
+			<ul class="menu_green">
+				<li class="menu__item _active">
+					<a href="#new" class="menu__link">Новинки</a>
+				</li>
+				<li class="menu__item">
+					<a href="#recommended" class="menu__link">Рекомендуем</a>
+				</li>
+				<li class="menu__item">
+					<a href="#hits" class="menu__link">Хиты продаж</a></li>
+				<li class="menu__item">
+					<a href="#promo" class="menu__link">Акции</a></li>
+				<li class="menu__item">
+					<a href="#brands" class="menu__link">Бренды</a></li>
+			</ul>
+			
+			<ul class="small-slider__list">
+				<li class="small-slider__item _visible" id="new">
+					<div class="small-slider__carousel owl-carousel">
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product1.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">"Коготь" SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product2.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Крысоловка Swissinno SuperCat</h4>
+							<div class="product__price"><strong>3 200</strong> руб.</div>
+						</a>
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product3.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">«Коготь» SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/produc41.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Victors Электронный уничтожитель грызунов</h4>
+							<div class="product__price"><strong>2 850</strong> руб.</div>
+						</a>
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product2.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Крысоловка Swissinno SuperCat</h4>
+							<div class="product__price"><strong>3 200</strong> руб.</div>
+						</a>	
+					</div>				
+				</li>
+				<li class="small-slider__item" id="recommended">
+					<div class="small-slider__carousel owl-carousel">
+						<a class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product1.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">"Коготь" SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product3.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">«Коготь» SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product2.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Крысоловка Swissinno SuperCat</h4>
+							<div class="product__price"><strong>3 200</strong> руб.</div>
+						</a>
+					</div>
+				</li>			
+				<li class="small-slider__item" id="hits">
+					<div class="small-slider__carousel owl-carousel">
+						<a class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product1.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">"Коготь" SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product3.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">«Коготь» SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product2.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Крысоловка Swissinno SuperCat</h4>
+							<div class="product__price"><strong>3 200</strong> руб.</div>
+						</a>
+					</div>
+				</li>
+				<li class="small-slider__item" id="promo">
+					<div class="small-slider__carousel owl-carousel">
+						<a class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product1.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">"Коготь" SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product2.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Крысоловка Swissinno SuperCat</h4>
+							<div class="product__price"><strong>3 200</strong> руб.</div>
+						</a>
+					</div>
+				</li>
+				<li class="small-slider__item" id="brands">
+					<div class="small-slider__carousel owl-carousel">
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product1.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">"Коготь" SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product2.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Крысоловка Swissinno SuperCat</h4>
+							<div class="product__price"><strong>3 200</strong> руб.</div>
+						</a>
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product3.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">«Коготь» SuperCat Ловушка для мышей</h4>
+							<div class="product__price"><strong>19 890</strong> руб.</div>
+						</a>
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/produc41.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Victors Электронный уничтожитель грызунов</h4>
+							<div class="product__price"><strong>2 850</strong> руб.</div>
+						</a>
+						<a href="#" class="product">
+							<div class="product__img-wrap">
+								<img src="./src/assets/img/product2.png" alt="" class="product__img">
+							</div>
+							<h4 class="product__name">Крысоловка Swissinno SuperCat</h4>
+							<div class="product__price"><strong>3 200</strong> руб.</div>
+						</a>	
+					</div>				
+				</li>
+			</ul>
+		
+			<article class="article">
+				<h2 class="article__heading">Топ вредителей</h2>
+				<div class="article__content">
+					<ul class="content__list">
+						<li class="content__item">
+							<a href="#" class="content__link">
+							    <div class="img-wrap_round"> <img src="src/assets/img/mosquito.png" alt="" class="img"></div>
+							    <h3 class="content__heading">Комары</h3>
+							</a>
+						</li>
+						<li class="content__item">
+							<a href="#" class="content__link">
+							    <div class="img-wrap_round"> <img src="src/assets/img/cockroach.png" alt="" class="img"></div>
+							    <h3 class="content__heading">Тараканы</h3>
+							</a>
+						</li>
+						<li class="content__item">
+							<a href="#" class="content__link">
+							    <div class="img-wrap_round"> <img src="src/assets/img/rodents.png" alt="" class="img">
+							    </div>
+							    <h3 class="content__heading">Грызуны</h3>
+							</a>
+						</li>
+						<li class="content__item">
+							<a href="#" class="content__link">
+							    <div class="img-wrap_round"> <img src="src/assets/img/birds.png" alt="" class="img">
+							    </div>
+							    <h3 class="content__heading">Птицы</h3>
+							</a>
+						</li>
+						<li class="content__item">
+							<a href="#" class="content__link">
+							    <div class="img-wrap_round"> <img src="src/assets/img/mice.png" alt="" class="img"></div>
+							    <h3 class="content__heading">Мыши</h3>
+							</a>
+						</li>
+						<li class="content__item">
+							<a href="#" class="content__link">
+							    <div class="img-wrap_round"> <img src="src/assets/img/rat.png" alt="" class="img"></div>
+							    <h3 class="content__heading">Крысы</h3>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</article>
+			<hr>
+			<article class="article_5col">
+				<h2 class="article__heading">Видео</h2>
+				<div class="article__video">
+					<iframe width="100%" height="260" src="https://www.youtube.com/embed/CSK-S4ylyJQ" frameborder="0" allowfullscreen></iframe>
+				</div>			
+			</article>
+
+			<article class="article_4col">
+				<h2 class="article__heading">Отзывы</h2>
+				<div class="user">
+					<div class="user__avatar-wrap">
+						<img src="./src/assets/img/user.png" alt="" class="user__avatar">
+					</div>
+
+					<div class="user__info">
+						<div class="user__name">Ларина Светлана</div>
+						<div class="user__pos">Садовод-любитель.</div>
+						<div class="user__pos">Стаж 2 года</div>
+					</div>
+
+					<p class="user__answer">
+						 <span class="user__quotes">&laquo</span>Кстати, насчет кротов, был случай: крот проделал ход под сараем. Откопали нору, направили туда отпугиватель. За неделю крот ушел незнамо куда. На улице такие эксперименты не проводила.<span class="user__quotes">&raquo</span> 
+					</p>
+				</div>
+
+				<a href="#" class="article__link">Посмотреть все отзывы</a>
+
+			</article>
+
+			<article class="article_3col">
+				<h2 class="article__heading">Подписаться</h2>
+				<p class="article__text-small">Подпишитесь на рассылку,  чтобы первыми узнавать о наших новинках и получать призы</p>
+				<form action="" class="subscribe">
+					<input type="email" class="subscribe__input" placeholder="*Эл.почта">
+					<input type="text" class="subscribe__input" placeholder="Имя">
+					<input type="submit" class="subscribe__button" value="Подписаться">
+				</form>
+				<p class="article__text-small">Заполните <a href="#" class="article__link">анкету</a> и получайте индивидуальные предложения!</p>
+			</article>		
+		</section>
+	</main>
+	 <footer class="footer">
+	 	<ul class="footer__container">
+	 		<li class="footer__item">
+	 			<h3 class="footer__heading">О нас</h3>
+				<a href="#" class="footer__link">О компании</a>
+				<a href="#" class="footer__link">Отзывы</a>
+				<a href="#" class="footer__link">Мы и СМИ</a>
+				<a href="#" class="footer__link">База знаний</a>
+				<a href="#" class="footer__link">Контакты</a>
+				<a href="#" class="footer__link">Лента событий</a>
+		 	</li>
+		 	<li class="footer__item">
+		 		<h3 class="footer__heading">Сервис</h3>
+				<a href="#" class="footer__link">Условия доставки</a>
+				<a href="#" class="footer__link">Условия оплаты</a>
+				<a href="#" class="footer__link">Условия возврата</a>
+				<a href="#" class="footer__link">Оптовикам</a>
+				<a href="#" class="footer__link">Гарантийные обязательства</a>
+				<a href="#" class="footer__link">Конфиденциальность</a>
+		 	</li>
+		 	<li class="footer__item_mobile-hidden">
+		 		<h3 class="footer__heading">Способы оплаты</h3>
+		 		<img src="./src/assets/img/webmoney.png" alt="" class="footer__img">
+		 		<img src="./src/assets/img/qiwi.png" alt="" class="footer__img">
+		 		<img src="./src/assets/img/mastercard.png" alt="" class="footer__img">
+		 		<img src="./src/assets/img/svyaznoy.png" alt="" class="footer__img">
+		 		<img src="./src/assets/img/ya_money.png" alt="" class="footer__img">
+		 		<img src="./src/assets/img/visa.png" alt="" class="footer__img">
+		 	</li>
+		 	<li class="footer__item_mobile-hidden">
+		 		<h3 class="footer__heading">Способы доставки</h3>
+		 		<img src="./src/assets/img/post.png" alt="" class="footer__img">
+		 		<img src="./src/assets/img/dl.png" alt="" class="footer__img">
+		 		<img src="./src/assets/img/post2.png" alt="" class="footer__img">
+		 	</li>
+	 	</ul> 
+	 	<div class="footer__bottom">
+	 		<div class="footer__copyright">© 2016 «PEST 911»</div>
+	 		<div class="footer__socials">
+	 			
+		 		<ul class="socials">
+		 			<li class="socials__item">
+		 				<a href="#" class="socials__link">
+		 					<img src="./src/assets/img/vk.png" alt="" class="socials__ico">
+		 				</a>
+		 			</li>
+		 			<li class="socials__item">
+		 				<a href="#" class="socials__link">
+		 					<img src="./src/assets/img/fb.png" alt="" class="socials__ico">
+		 				</a>
+		 			</li>
+		 			<li class="socials__item">
+		 				<a href="#" class="socials__link">
+		 					<img src="./src/assets/img/google.png" alt="" class="socials__ico">
+		 				</a>
+		 			</li>
+		 			<li class="socials__item">
+		 				<a href="#" class="socials__link">
+		 					<img src="./src/assets/img/youtube.png" alt="" class="socials__ico">
+		 				</a>
+		 			</li>
+		 		</ul>
+		 	</div>
+			<div class="footer__author">Создание сайта — компания <a href="picom.ru" class="footer__link">«Пиком»</a></div>
+	 	</div>	
+	 </footer>
+ </div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
